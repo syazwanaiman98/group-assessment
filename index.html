@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Baloo+2&family=Luckiest+Guy&family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<h1 style="font-family: 'Luckiest Guy', cursive">Home</h1>
+
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="product.html">Products</a>
+<a href="branch.html">Branches</a>
+<a href="join.html">Join Us</a>
+<a href="promotion.html">Promotions</a>
+<a href="contact.html">Contact Us</a>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<h2 class="w3-center"; style="padding-top: 40px; font-family: 'Potta One', cursive;">Makette Sdn Bhd</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/h1.jpg" style="width:100%">
+  <img class="mySlides" src="images/h2.jpg" style="width:100%">
+  <img class="mySlides" src="images/h3.jpg" style="width:100%">
+  <img class="mySlides" src="images/h4.jpg" style="width:100%">
+  <img class="mySlides" src="images/h5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YgYjjBguu2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmatsallehcarimakan%2Fvideos%2F1723259697833258%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+
+<h3 style="padding-top: 50px">Created by:</h3>
+<p>Wan Mohamad Syazwan Aiman Bin Wan Mohd Zailani (2020993655)</p>
+<p>Nurul Natasha Binti Mohd Yazid (2020964601)</p>
+<h4>Class:</h4>
+<p>BA2424C</p>
+
+<style>
+  body
+    {
+      background-image: url('images/wallpaper3.jpeg');
+      background-size: 1000px
+    }
+</style>
+
+</body>
+</html>

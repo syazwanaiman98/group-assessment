@@ -1,0 +1,84 @@
+h1
+	{
+		font-family: 'Luckiest Guy', cursive;
+		color: solid black
+		font-size: 22px;
+	}
+
+h2
+	{
+		font-family: 'Potta One', cursive;
+		color: solid black
+	}
+
+body
+	{
+		background-color: grey;
+		text-align: center;
+		font-family: 'Merriweather Sans', sans-serif;
+		background-size: 50px
+	}
+
+a:link, a:visited 
+	{
+		background-color: #424240;
+		color: white;
+		text-decoration: none;
+		padding: 16px;
+		text-align: center;
+		display: inline-block;
+		font-family: 'Baloo 2', cursive;
+		font-size: 17px
+	}
+
+a:hover
+	{
+		color: #b2d8d8;
+		background-color: #004c4c;
+		
+	}
+
+a:active
+	{
+		color: #004c4c;
+		background-color: #d896ff;
+		text-decoration: underline;
+	}
+
+table, tr, td, th
+	{
+		border: 3px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		width: 50%
+		text-align:center;
+	}
+
+
+th
+	{
+		background-color: #eea990;
+		width: 20%
+	}
+td
+	{
+		background-color: #f6e0b5
+	}
+
+tr:hover
+	{
+		background-color: black;
+	}
+
+p
+	{
+		font-family: 'Averia Serif Libre', cursive
+		font-size: 12pt
+	}
+
+div { text-align: center; }
+
+ul { display: inline-block; text-align: left; list-style: inside;}
+
+ol { text-align: center; list-style-position: inside; padding-top: 10px}
+
